@@ -2,7 +2,7 @@ This project adds syntax highlighting files for languages used by SocketStream (
 
 ### Installation and Use
 
-1. Download and place all .lang files in `/usr/share/gtksourceview-2.0/language-specs` or `/usr/share/gtksourceview-2.0/language-specs` for Ubuntu 11.10
+1. Download and place all .lang files in `/usr/share/gtksourceview-2.0/language-specs` or `/usr/share/gtksourceview-3.0/language-specs` for Ubuntu 11.10
 
 2. Restart or run Gedit and open any of the files included in your SocketStream project.
 
