@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
+  CSS3 properties added by Jonathan James (github.com/jonjamz)
+  on January 19, 2012.
+  
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
  This file is part of GtkSourceView
 
  Author: Scott Martin <scott@coffeeblack.org>
@@ -161,6 +166,8 @@
     <context id="property-names" style-ref="keyword">
       <suffix>(?=\s*:)</suffix>
       <keyword>azimuth</keyword>
+      <keyword>alignment-adjust</keyword>
+      <keyword>alignment-baseline</keyword>
       <keyword>animation</keyword>
       <keyword>animation-name</keyword>
       <keyword>animation-duration</keyword>
@@ -169,6 +176,8 @@
       <keyword>animation-iteration-count</keyword>
       <keyword>animation-direction</keyword>
       <keyword>animation-play-state</keyword>
+      <keyword>appearance</keyword>
+      <keyword>backface-visibility</keyword>
       <keyword>background-attachment</keyword>
       <keyword>background-color</keyword>
       <keyword>background-image</keyword>
@@ -178,6 +187,7 @@
       <keyword>background-origin</keyword>
       <keyword>background-size</keyword>
       <keyword>background</keyword>
+      <keyword>baseline-shift</keyword>
       <keyword>bookmark-label</keyword>
       <keyword>bookmark-level</keyword>
       <keyword>bookmark-target</keyword>
@@ -213,6 +223,8 @@
       <keyword>border-bottom-right-radius</keyword>
       <keyword>border-top-left-radius</keyword>
       <keyword>border-top-right-radius</keyword>
+      <keyword>border</keyword>
+      <keyword>bottom</keyword>
       <keyword>box-align</keyword>
       <keyword>box-decoration-break</keyword>
       <keyword>box-direction</keyword>
@@ -223,13 +235,22 @@
       <keyword>box-orient</keyword>
       <keyword>box-pack</keyword>
       <keyword>box-shadow</keyword>
-      <keyword>border</keyword>
-      <keyword>bottom</keyword>
+      <keyword>box-sizing</keyword>
       <keyword>caption-side</keyword>
       <keyword>clear</keyword>
       <keyword>clip</keyword>
       <keyword>color</keyword>
       <keyword>color-profile</keyword>
+      <keyword>column-count</keyword>
+      <keyword>column-fill</keyword>
+      <keyword>column-gap</keyword>
+      <keyword>column-rule</keyword>
+      <keyword>column-rule-color</keyword>
+      <keyword>column-rule-style</keyword>
+      <keyword>column-rule-width</keyword>
+      <keyword>column-span</keyword>
+      <keyword>column-width</keyword>
+      <keyword>columns</keyword>
       <keyword>content</keyword>
       <keyword>counter-increment</keyword>
       <keyword>counter-reset</keyword>
@@ -240,8 +261,17 @@
       <keyword>cursor</keyword>
       <keyword>direction</keyword>
       <keyword>display</keyword>
+      <keyword>dominant-baseline</keyword>
+      <keyword>drop-initial-after-adjust</keyword>
+      <keyword>drop-initial-after-align</keyword>
+      <keyword>drop-initial-before-adjust</keyword>
+      <keyword>drop-initial-before-align</keyword>
+      <keyword>drop-initial-size</keyword>
+      <keyword>drop-initial-value</keyword>
       <keyword>elevation</keyword>
       <keyword>empty-cells</keyword>
+      <keyword>fit</keyword>
+      <keyword>fit-position</keyword>
       <keyword>float</keyword>
       <keyword>float-offset</keyword>
       <keyword>font-family</keyword>
@@ -252,6 +282,9 @@
       <keyword>font-variant</keyword>
       <keyword>font-weight</keyword>
       <keyword>font</keyword>
+      <keyword>grid-columns</keyword>
+      <keyword>grid-rows</keyword>
+      <keyword>hanging-punctuation</keyword>
       <keyword>height</keyword>
       <keyword>hyphenate-after</keyword>
       <keyword>hyphenate-before</keyword>
@@ -259,10 +292,17 @@
       <keyword>hyphenate-lines</keyword>
       <keyword>hyphenate-resource</keyword>
       <keyword>hyphens</keyword>
+      <keyword>icon</keyword>
+      <keyword>image-orientation</keyword>
       <keyword>image-resolution</keyword>
+      <keyword>inline-box-align</keyword>
       <keyword>left</keyword>
       <keyword>letter-spacing</keyword>
       <keyword>line-height</keyword>
+      <keyword>line-stacking</keyword>
+      <keyword>line-stacking-ruby</keyword>
+      <keyword>line-stacking-shift</keyword>
+      <keyword>line-stacking-strategy</keyword>
       <keyword>list-style-image</keyword>
       <keyword>list-style-position</keyword>
       <keyword>list-style-type</keyword>
@@ -273,15 +313,28 @@
       <keyword>margin-top</keyword>
       <keyword>margin</keyword>
       <keyword>marker-offset</keyword>
+      <keyword>mark-after</keyword>
+      <keyword>mark-before</keyword>
+      <keyword>mark</keyword>
       <keyword>marks</keyword>
+      <keyword>marquee-direction</keyword>
+      <keyword>marquee-play-count</keyword>
+      <keyword>marquee-speed</keyword>
+      <keyword>marquee-style</keyword>
       <keyword>max-height</keyword>
       <keyword>max-width</keyword>
       <keyword>min-height</keyword>
       <keyword>min-width</keyword>
       <keyword>move-to</keyword>
+      <keyword>nav-down</keyword>
+      <keyword>nav-index</keyword>
+      <keyword>nav-left</keyword>
+      <keyword>nav-right</keyword>
+      <keyword>nav-up</keyword>
       <keyword>orphans</keyword>
       <keyword>opacity</keyword>
       <keyword>outline-color</keyword>
+      <keyword>outline-offset</keyword>
       <keyword>outline-style</keyword>
       <keyword>outline-width</keyword>
       <keyword>outline</keyword>
@@ -302,16 +355,28 @@
       <keyword>pause-after</keyword>
       <keyword>pause-before</keyword>
       <keyword>pause</keyword>
+      <keyword>perspective</keyword>
+      <keyword>perspective-origin</keyword>
+      <keyword>phonemes</keyword>
       <keyword>pitch-range</keyword>
       <keyword>pitch</keyword>
       <keyword>play-during</keyword>
       <keyword>position</keyword>
+      <keyword>punctuation-trim</keyword>
       <keyword>quotes</keyword>
       <keyword>rendering-intent</keyword>
+      <keyword>resize</keyword>
+      <keyword>rest</keyword>
+      <keyword>rest-after</keyword>
+      <keyword>rest-before</keyword>
       <keyword>richness</keyword>
       <keyword>right</keyword>
       <keyword>rotation</keyword>
       <keyword>rotation-point</keyword>
+      <keyword>ruby-align</keyword>
+      <keyword>ruby-overhang</keyword>
+      <keyword>ruby-position</keyword>
+      <keyword>ruby-span</keyword>
       <keyword>size</keyword>
       <keyword>speak-header</keyword>
       <keyword>speak-numerical</keyword>
@@ -320,21 +385,48 @@
       <keyword>speech-rate</keyword>
       <keyword>stress</keyword>
       <keyword>string-set</keyword>
+      <keyword>target</keyword>
+      <keyword>target-name</keyword>
+      <keyword>target-new</keyword>
+      <keyword>target-position</keyword>
       <keyword>table-layout</keyword>
       <keyword>text-align</keyword>
+      <keyword>text-align-last</keyword>
       <keyword>text-decoration</keyword>
+      <keyword>text-height</keyword>
       <keyword>text-indent</keyword>
+      <keyword>text-justify</keyword>
+      <keyword>text-outline</keyword>
+      <keyword>text-overflow</keyword>
       <keyword>text-shadow</keyword>
       <keyword>text-transform</keyword>
+      <keyword>text-wrap</keyword>
       <keyword>top</keyword>
+      <keyword>transform</keyword>
+      <keyword>transform-origin</keyword>
+      <keyword>transform-style</keyword>
+      <keyword>transition</keyword>
+      <keyword>transition-property</keyword>
+      <keyword>transition-duration</keyword>
+      <keyword>transition-timing-function</keyword>
+      <keyword>transition-delay</keyword>
       <keyword>unicode-bidi</keyword>
       <keyword>vertical-align</keyword>
       <keyword>visibility</keyword>
+      <keyword>voice-balance</keyword>
+      <keyword>voice-duration</keyword>
       <keyword>voice-family</keyword>
+      <keyword>voice-pitch</keyword>
+      <keyword>voice-pitch-range</keyword>
+      <keyword>voice-rate</keyword>
+      <keyword>voice-stress</keyword>
+      <keyword>voice-volume</keyword>
       <keyword>volume</keyword>
       <keyword>white-space</keyword>
       <keyword>widows</keyword>
       <keyword>width</keyword>
+      <keyword>word-break</keyword>
+      <keyword>word-wrap</keyword>
       <keyword>word-spacing</keyword>
       <keyword>z-index</keyword>
     </context>
